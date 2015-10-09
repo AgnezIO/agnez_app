@@ -1,0 +1,20 @@
+{
+  "name": "agnez",
+  "version": "0.0.1",
+  "description": "The eye inside the box",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "edersantana",
+  "license": "MIT",
+  "engines": {
+      "node": "4.1.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "feathers": "^1.1.1",
+    "feathers-client": "^0.2.0",
+    "feathers-memory": "^0.3.4",
+  }
+}
