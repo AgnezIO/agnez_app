@@ -1,11 +1,15 @@
 {
   "name": "agnez",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The eye inside the box",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+      "angez",
+      "data-viz"
+  ],
   "author": "edersantana",
   "license": "MIT",
   "dependencies": {
