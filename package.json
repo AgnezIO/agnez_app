@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-      "angez",
-      "data-viz"
+    "angez",
+    "data-viz"
   ],
   "author": "edersantana",
   "license": "MIT",
@@ -16,9 +16,10 @@
     "body-parser": "^1.14.1",
     "feathers": "^1.1.1",
     "feathers-client": "^0.2.0",
-    "feathers-memory": "^0.3.4"
+    "feathers-memory": "^0.3.4",
+    "feathers-mongodb": "^1.0.1"
   },
   "engines": {
-      "node": "4.1.1"
+    "node": "4.1.1"
   }
 }
