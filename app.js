@@ -9,9 +9,9 @@
   memory = mongodb({
     db: 'edermempy',
     collection: 'values',
-    host: 'ds053190.mongolab.com',
+    host: process.env.DB_URL,
     username: 'edersantana',
-    password: 'eder345#$%',
+    password: process.env.DB_PASS,
     port: 53190
   });
 
