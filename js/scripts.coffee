@@ -1,7 +1,7 @@
 # Real time REST tools
 socket = io()
 app = feathers().configure feathers.socketio socket
-values = app.service 'values'
+values = app.service 'api/v1/values'
 
 # We need to add a new Bootstrap row after every two new cells.
 cell_count = 0

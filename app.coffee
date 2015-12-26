@@ -17,7 +17,7 @@ app = feathers()
 app.configure feathers.rest()
   .configure feathers.socketio()
   .use bodyParser.json()
-  .use '/values', memory
+  .use '/api/v1/values', memory
   .use '/', feathers.static(__dirname)
   .listen 3000
 
