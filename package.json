@@ -17,7 +17,8 @@
     "feathers": "^1.1.1",
     "feathers-client": "^0.2.0",
     "feathers-memory": "^0.3.4",
-    "feathers-mongodb": "^1.0.1"
+    "feathers-mongodb": "^1.0.1",
+    "feathers-nedb": "^1.2.0"
   },
   "engines": {
     "node": "4.1.1"

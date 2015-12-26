@@ -1,0 +1,3 @@
+[submodule "dashboards"]
+	path = dashboards
+	url = ./dashboards/
