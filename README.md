@@ -8,14 +8,14 @@ Check this [demo](http://agnez.herokuapp.com) and its [code](https://github.com/
 
 ### Install
 ```shell
-git clone https://github.com/AgnezIO/agnez_app.git
+git clone --recursive https://github.com/AgnezIO/agnez_app.git
 cd agnez_app
 make
 ```
 
 ### Usage
 ```shell
-coffee app.coffee
+make run
 ```
 Send beautiful visualization to the app and check the results on
 [localhost:3000](http://localhost:3000). If you are a Keras user, you can do
