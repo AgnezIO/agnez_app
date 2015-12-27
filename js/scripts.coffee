@@ -40,6 +40,7 @@ cellstr = """
 values.on 'patched', (val) ->
   console.log 'patching', val.name
   $grid = $ "#grid#{val.pos}"
+  $grid.hide()
   $title = $ "#title#{val.pos}"
   $description = $ "#description#{val.pos}"
 
@@ -49,8 +50,9 @@ values.on 'patched', (val) ->
     $grid.html val.value
   if val.type is "img"
     $grid.html "<img src='#{val.value}'>"
+
+  $grid.fadeIn "fast"
   $grid.height "400px"
-  $grid.render()
 
 values.on 'created', (val) ->
   console.log 'creating', val.name
