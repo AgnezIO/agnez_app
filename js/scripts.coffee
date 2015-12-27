@@ -40,7 +40,6 @@ cellstr = """
 values.on 'patched', (val) ->
   console.log 'patching', val.name
   $grid = $ "#grid#{val.pos}"
-  $grid.hide()
   $title = $ "#title#{val.pos}"
   $description = $ "#description#{val.pos}"
 
@@ -51,7 +50,6 @@ values.on 'patched', (val) ->
   if val.type is "img"
     $grid.html "<img src='#{val.value}'>"
 
-  $grid.fadeIn "fast"
   $grid.height "400px"
 
 values.on 'created', (val) ->
@@ -63,7 +61,6 @@ addValue = (val) ->
   $dash = $ "#dashboard"
   if cell_count %% 2 == 0
     $dash.append '<div class="row"></div>'
-    # $dash.render()
 
   # Get last row
   $row = $ ".row:last"
