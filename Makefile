@@ -2,7 +2,7 @@ JS=./js
 
 .PHONY : all clean watch
 
-all: node_modules $(JS)/script.js 
+all: node_modules $(JS)/scripts.js 
 
 clean:
 	rm -f $(JS)/*.js
