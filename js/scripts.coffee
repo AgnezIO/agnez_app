@@ -1,7 +1,7 @@
 # Real time REST tools
 socket = io()
 app = feathers().configure feathers.socketio socket
-values = app.service 'api/v1/values'
+values = app.service '/api/v1/values'
 
 # We need to add a new Bootstrap row after every two new cells.
 cell_count = 0
@@ -50,6 +50,7 @@ values.on 'patched', (val) ->
   if val.type is "img"
     $grid.html "<img src='#{val.value}'>"
   $grid.height "400px"
+  $grid.render()
 
 values.on 'created', (val) ->
   console.log 'creating', val.name
