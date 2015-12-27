@@ -11,7 +11,7 @@ clean:
 clean_db:
 	rm -rf db-data
 
-scripts.js:
+$(JS)/scripts.js:
 	coffee -c $(JS)/*.coffee
 
 node_modules:
