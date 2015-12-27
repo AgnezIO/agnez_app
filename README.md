@@ -3,9 +3,6 @@
 Need an app to visualize your machine learning algorithms? You came to the
 right place.
 
-### Example
-Check this [demo](http://agnez.herokuapp.com) and its [code](https://github.com/AgnezIO/agnez/blob/master/examples/DRAW_agnez.ipynb). 
-
 ### Install
 ```shell
 git clone --recursive https://github.com/AgnezIO/agnez_app.git
@@ -22,3 +19,6 @@ Send beautiful visualization to the app and check the results on
 that using [callbacks](https://github.com/AgnezIO/agnez_app.git).
 
 Torch callbacks are coming soon.
+
+### Example
+Check this [demo](http://agnez.herokuapp.com) or run this [code](https://github.com/AgnezIO/agnez/blob/master/examples/MNIST.ipynb). 
