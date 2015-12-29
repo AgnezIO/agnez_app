@@ -7,7 +7,7 @@ app = feathers()
 
 app.configure feathers.rest()
   .configure feathers.socketio()
-  .use bodyParser.json({limit: '50mb'})
+  .use bodyParser.json()
   .use '/api/v1/values', memory
   .use '/', feathers.static(__dirname)
   .listen 3000

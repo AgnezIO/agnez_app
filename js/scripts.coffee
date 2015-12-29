@@ -80,4 +80,9 @@ addValue = (val) ->
 
 # Render all values already on the database
 values.find (error, values) ->
-  values.forEach addValue
+  # values.forEach addValue
+  for i in [0..values.length-1]
+    for v in values
+      if v.pos == i
+        addValue v
+      i += 1
