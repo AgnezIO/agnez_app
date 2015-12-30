@@ -2,7 +2,7 @@ JS=./js
 
 .PHONY : all clean watch
 
-all: node_modules $(JS)/scripts.js 
+all: node_modules $(JS)/scripts.js
 
 clean:
 	rm -f $(JS)/*.js
@@ -22,3 +22,5 @@ watch:
 
 run:
 	coffee app.coffee
+
+restart: clean_db run
